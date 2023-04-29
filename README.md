@@ -1,22 +1,18 @@
 RedBus - Bus Reservation System
 This is a Bus Booking application built using Spring Boot, Hibernate, PostgreSQL, Spring Security, thymeleaf and JPA. The application allows users to find buses from a source to a destination and book seats in those buses.
 
-Team Members
-Himanshu Pandey
-Saurabh Pandey
-Tarun Bhargav
-Ishpreet
-Aditi
+
+
 Technology used
-Spring boot
-Hibernate
-PostgreSQL
-Spring Security
-Thymeleaf
-JPA
-flying saucer library
-Features
-Two roles: Passenger and admin.
+Spring boot,
+Hibernate,
+PostgreSQL,
+Spring Security,
+Thymeleaf,
+JPA,
+flying saucer library,
+Features,
+Two roles: Passenger and admin.,
 
 Custom Success Handler: The Custom Success Handler , Handles the request basis on the ROle of the User after Login process --> if the ROle is Admin , it will redirect to Admin Dashboard , if Role is User then it will redirect to User Dashboard .
 
